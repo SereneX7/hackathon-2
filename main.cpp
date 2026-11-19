@@ -43,7 +43,7 @@ int main() {
             ClearBackground(RAYWHITE);
 
             BeginMode3D(camera);
-                DrawCylinderEx(Vector3 {2,1,0}, Vector3 {5,3,4},  float 1.0 ,float 1.0, int 8, Color BLUE);
+                DrawCylinderEx(Vector3 {2,1,0}, Vector3 {4,3,2}, 1.0 , 1.0, 8, BLUE);
                 
                 DrawGrid(10, 1.0f);
 
